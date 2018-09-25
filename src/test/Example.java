@@ -3,9 +3,16 @@ package test;
 public class Example {
 
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
-		System.out.println("50 - 3");
-		System.out.println(8 + 6 * -2 + 4 + "0" + (2 + 5));
+		for(int i=1; i<=60; i++){
+				if(i%10==0) {
+					System.out.print("|");
+					} else {
+					System.out.print(" ");
+					}
+		}
+		System.out.println();
+		for(int i=1; i<=60; i++) {
+			System.out.print(i%10);
+		}
 	}
-
 }
